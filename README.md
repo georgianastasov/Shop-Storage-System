@@ -21,6 +21,20 @@
 * •	Преглеждане на архиви за по добра отчетност
 
 
+## :electric_plug: Начин на стартиране на системата
+1. Изтегляне и инсталиране на програмата Visual Studio 2019.
+2. Клониране на проекта на локално репозитори.
+3. Инсталиране на локалния сървър SQL Express 2019.
+4. Изтегляне и инсталиране на програмата SQL Managment Studio 2019.
+5. Стартиране на програма SQL MS 2019 и свързване към локалния сървър на компютъра.
+6. Импортиране на базата данни (storedatabase), която е в директорията на клонираното репозитори.
+7. Стартиране на програмата VS 2019 и зареждане на проекта.
+8. Отварян не раздела Server Explorer->(right click)Data Connection->Add Connection пише се името на вашият локален сървър, което може да се види в SQl Managment Studio в раздела отдясно.
+9. След което се добавя базата данни (storedatabase). 
+10. Отваря се app.config файла и срещу 'connectionString="Data Source=' се записва името на локалния ви сървър.
+11. Стартира се системата.
+12. Като админ се влиза с user= admin, password= admin. Като потребител се влиза user= user, password= user.
+
 
 ## :wrench: Използвани инструменти
 * • C## 
@@ -38,6 +52,7 @@
 
 ## :computer: Технически изисквания
 **Софтуерът** е изцяло информационен и компютърно ориентиран, затова техническите изисквания към даденият обект, който ще използва софтуерът ще бъде наличието на добра информационна мрежа дали било то локална или интернет, наличието на компютри като с времето софтуерът може да се прехвърли и на таблети. Важно е и наличието на добро захранване и компютърна грамотност при служителите. 
+
 
 
 
@@ -62,6 +77,21 @@
 * • Better distribution and inventory (warehouse inspection)
 * • Better availability of information (modules with the ability to divide information according to specifications)
 * • View archives for better reporting
+
+
+## :electric_plug: How to start the system
+1. Download and install the program Visual Studio 2019.
+2. Cloning the project to local repositories.
+3. Installing the local SQL Express 2019 server.
+4. Download and install the program SQL Managment Studio 2019.
+5. Start the SQL MS 2019 program and connect to the local server of the computer.
+6. Import the database (storedatabase), which is in the directory of cloned repositories.
+7. Starting the VS 2019 program and loading the project.
+8. Open tab Server Explorer -> (right click) Data Connection-> Add Connection write the name of your local server, which can be seen in SQl Managment Studio in the tab on the right.
+9. Then add the database (storedatabase).
+10. Open the app.config file and write the name of your local server against 'connectionString = "Data Source ='.
+11. The system starts.
+12. Log in as user with user = admin, password = admin. User = user, password = user is entered as user.
 
 
 ## :wrench: Tools used
