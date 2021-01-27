@@ -96,9 +96,9 @@
             this.labelRate.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRate.Location = new System.Drawing.Point(59, 445);
             this.labelRate.Name = "labelRate";
-            this.labelRate.Size = new System.Drawing.Size(49, 23);
+            this.labelRate.Size = new System.Drawing.Size(51, 23);
             this.labelRate.TabIndex = 4;
-            this.labelRate.Text = "Rate:";
+            this.labelRate.Text = "Price:";
             // 
             // txtID
             // 
